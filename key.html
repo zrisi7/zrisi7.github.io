@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+  <script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
+
+  </head>
+  <body style='margin : 0px; overflow: hidden; width: 100wh; height: 100vh'>
+
+    <a-scene embedded arjs>
+
+      <a-assets>
+        <a-asset-item id="cauldron" src="key.gltf"></a-asset-item>
+
+      </a-assets>
+
+
+      <a-entity gltf-model="#cauldron"></a-entity>
+
+        <a-marker-camera preset='hiro'></a-marker-camera>
+
+
+
+
+
+    </a-scene>
+  </body>
+</html>
