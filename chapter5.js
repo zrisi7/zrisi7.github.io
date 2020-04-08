@@ -446,7 +446,7 @@ function goodjobtwo() {
   document.getElementById("speechbubble").innerText ="Good job! You did exactly what I needed you to do. I hated them both after they destroyed my career in potion making ";
   document.getElementById("option1").outerHTML = '<div class="button" id="option1" onclick="wizardflower2();">Pour potion on wizard too</div>';
     document.getElementById("option2").outerHTML = '<div class="button" id="option2" onclick="bubble2();">You are evil!</div>';
-    document.getElementById("option3").outerHTML = '<div class="button" id="option3" onclick="badending();">I hate them too</div>';
+    document.getElementById("option3").outerHTML = '<div class="button" id="option3" onclick="();"><a href="witch.html" target="_blank" style="text-decoration: none; color:white;">I hate them too</div>';
   //visible & hidden
   document.getElementById("box").style.display ="none";
   document.getElementById("speechbubble").style.display ="block";
@@ -465,7 +465,7 @@ function wizardflower2() {
 
   document.getElementById("gamecontainer").style.backgroundImage = "url('bednflowerw.png')";
   document.getElementById("option1").outerHTML = '<div class="button" id="option1" onclick="page1();">Can I restart?</div>';
-  document.getElementById("option2").outerHTML = '<div class="button" id="option2" onclick="badendingtwo();">Awesome</div>';
+  document.getElementById("option2").outerHTML = '<div class="button" id="option2" onclick="();"><a href="wizard&witch.html" target="_blank" style="text-decoration: none; color:white;">Awesome</div>';
 
 
   document.getElementById("option1").style.display ="block";
@@ -502,9 +502,9 @@ function gotowitch() {
 
 function happy() {
 
-  document.getElementById("gamecontainer").style.backgroundImage = "url('witchnroom.png')";
-  document.getElementById("speechbubble").innerText ="Thank you! In 24 hours he'll be a man again. You gave me hope, even if you have destroyed so much ";
-  document.getElementById("option1").outerHTML = '<div class="button" id="option1" onclick="happyending();">Your welcome</div>';
+  document.getElementById("gamecontainer").style.backgroundImage = "url('sonnroom.png')";
+  document.getElementById("speechbubble").innerText ="Thank you! You've given us hope and turned me back into a human! Remember, even when the world crumbles around us, we still can thrive and have hope. ";
+  document.getElementById("option1").outerHTML = '<div class="button" id="option1" onclick="();"><a href="flowerhuman.html" target="_blank" style="text-decoration: none; color:white;">Your welcome</div>';
 
   //visible & hidden
   document.getElementById("box").style.display ="none";

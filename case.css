@@ -1,0 +1,1199 @@
+
+ @import url("https://use.typekit.net/azr2jlp.css");
+ @import url('https://fonts.googleapis.com/css?family=Montserrat:700&display=swap');
+
+body {
+  width: 100%;
+  margin:0;
+  scroll-behavior: smooth;
+  font-family:museo-sans-rounded, sans-serif;
+  background-image: url("pattern.svg");
+
+
+
+}
+
+.background {
+  display:hidden;
+}
+.mobilemenu {
+  display:none;
+}
+
+.mobilesocial {
+  display:none;
+}
+
+#features h1 {
+  display:none;
+}
+
+h1 {
+  font-size: 40px;
+  margin:0;
+  padding:0;
+  color:#44C1C6
+}
+
+
+h2 {
+  font-size:27px;
+  margin-top:20px;
+  padding:0;
+  color:#0C327F;
+  line-height:1.4em;
+}
+
+h3 {
+  font-size:25px;
+  color:#40C6B2;
+  font-weight:1000;
+}
+
+strong {
+  color: #36ECCE;
+  font-weight:700;
+ }
+
+p {
+
+  color:#0C327F;
+  font-size:16px;
+  font-family:museo-sans, sans-serif;
+  font-weight: 500;
+  line-height:1.4em;
+}
+
+li {
+
+  list-style: none;
+
+}
+
+a {
+  color:#6C63FF;
+}
+
+
+.outboundbutton {
+  margin-top:4%;
+
+  padding:10px;
+  cursor:pointer;
+  border-radius:5px;
+  color:white;
+  width:115px;
+  background-color:#40C6B2;
+  box-shadow:  0px 3px 6px rgba(0, 0, 0, 0.16);
+  font-size:16px;
+
+  font-weight:700;
+
+}
+
+.outboundbutton:hover {
+  background-color:#6C63FF;
+  transform: scale(1.1);
+transition: all 0.25s ease-in-out;
+box-shadow:  0px 3px 6px rgba(0, 0, 0, 0.20);
+
+}
+
+.backgroundoff {
+  background-image:url("pattern.svg");
+  background-size:auto;
+  position:fixed;
+  width:100vw;
+  height:100vh;
+  z-index:-2;
+}
+.textwidth {
+  max-width:500px;
+}
+
+
+.bodycontainer {
+    display: grid;
+    grid-template-columns: 12% 76% 12%;
+
+}
+
+.submenu {
+  grid-column: 1;
+  margin-left: 20px;
+  margin-top: 0px;
+}
+
+
+.submenu h3 {
+  margin-top:-20%;
+  margin-bottom:20%;
+  text-align:center;
+}
+
+.submenu li {
+  padding-top: 10px;
+  width: 100px;
+}
+
+
+.container {
+  margin-top:10px;
+
+
+  /* size */
+  width: 100%;
+  height: 500px;
+
+  /* where in the grid*/
+  grid-column:2;
+
+  /* it's own grid */
+  display: grid;
+  grid-template-columns: 20% 80%
+}
+
+.menucontainer {
+  grid-column: 1;
+position:fixed;
+}
+        .menubox {
+          margin-top:50px;
+          padding-left:20%;
+          padding-top: 20%;
+
+          display: grid;
+          grid-template-columns: 70px 85px;
+        }
+
+                .logoholder {
+                  grid-column: 1;
+                }
+
+                .logo {
+                  background-repeat: no-repeat;
+                  background-size:contain;
+                  width: 200px;
+                  height: 40px;
+                  margin-left: 5px;
+                  background-image: url("logo.png");
+
+                }
+
+
+                .menuplacement {
+                  grid-column: 2;
+                    font-size:18px;
+
+                }
+
+                        ul {
+                          margin:0;
+                          padding:0;
+                          margin-top:20px;
+
+                        }
+
+                        .menucontainer li {
+                          margin:0;
+                          list-style:none;
+
+
+                        }
+
+
+
+                        .menucontainer a {
+                          text-decoration: none;
+                          font-family: 'Montserrat', sans-serif;
+                          color:#C0D6DD;
+                          transition: all 0.15s ease-in-out;
+
+                        }
+
+                            .menucontainer a:hover {
+
+                              color:#40C6B2;
+                              transition: all 0.15s ease-in-out;
+
+                            }
+
+
+
+
+                .line {
+                  margin-top:10px;
+                  width: 130px;
+                  height: 3px;
+                  background-color:#36ECCE;
+                  border-radius:20px;
+                }
+
+
+                .socialmediacon{
+                  grid-column-start:1;
+                  grid-column-end:3;
+                }
+
+                .socialmediacon li {
+                  float:left;
+
+
+                }
+                .linkedin {
+                  background-image:url("linkedin.png");
+                  margin-right:15px;
+                  width:32px;
+                  height:32px;
+                  background-repeat: no-repeat;
+                  background-size:contain;
+                  opacity: 0.25;
+                  filter: alpha(opacity=25);
+                  transform: scale(1.0);
+                }
+
+                      .linkedin:hover, .instagram:hover, .behance:hover{
+                        opacity: 1;
+                        filter: alpha(opacity=1);
+                        transition: all 0.25s ease-in-out;
+                        transform: scale(1.5);
+                      }
+
+                .instagram {
+                  background-image:url("insta.png");
+                  margin-right:15px;
+                  width:32px;
+                  height:32px;
+                  background-repeat: no-repeat;
+                  background-size:contain;
+                  opacity: 0.25;
+                  filter: alpha(opacity=25);
+                  transition: all 0.25s ease-in-out;
+
+
+                }
+
+                .behance {
+                  background-image:url("behance.png");
+                  width:32px;
+                  height:32px;
+                  background-repeat: no-repeat;
+                  background-size:contain;
+                  opacity: 0.25;
+                  filter: alpha(opacity=25);
+                  transition: all 0.25s ease-in-out;
+                }
+
+
+.contentcontainer {
+  grid-column: 2;
+  /* background-color:green; */
+}
+
+              .constyle {
+                background-color:#FCFCFC;
+                padding: 5%;
+                box-shadow:  0px 3px 6px rgba(0, 0, 0, 0.16);
+                width: 80%;
+                margin:5%;
+                  height: inherit;
+                border-radius: 5px;
+              }
+
+              .constyleintro {
+                background-color:white;
+                padding: 5%;
+
+
+                width: 80%;
+                margin:5%;
+                  height: inherit;
+                border-radius: 5px;
+
+                display:grid;
+                grid-template-columns: 45% 10% 45%;
+
+
+                  border-bottom: 4px solid #36ECCE;
+              }
+
+              .constyleabout {
+
+                padding: 5%;
+                padding-top:5%;
+                width: 70%;
+                margin:10%;
+                margin-top:0;
+                  height: inherit;
+                border-radius: 5px;
+                display:grid;
+                grid-template-columns: 45% 10% 45%;
+              }
+
+
+
+                      .me {
+                        background-image:url("me.png");
+                        background-repeat: no-repeat;
+                        background-size:contain;
+                        padding:0%;
+                        margin-left:20%;
+                        grid-column: 1;
+                        z-index:6;
+                      }
+
+                      .right {
+                        grid-column: 3;
+                        max-width:300px;
+                      }
+
+                      .left {
+                        grid-column: 1;
+                          max-width:270px;
+                      }
+
+
+
+
+
+            .intro {
+
+              padding-top:50px;
+              display: grid;
+              grid-template-columns: 80% 20%;
+            }
+                        .introtext h1 {
+
+                            color:#36ECCE;
+
+                        }
+                        .introtext {
+                          grid-column: 1;
+                        }
+
+
+
+
+                        .intro p {
+                          font-weight:300;
+                        }
+
+                        .intro h2, .intro p {
+                          max-width: 500px;
+
+                        }
+
+
+                        .icons {
+                          background-image: url("digitaldraw.svg");
+                          background-repeat: no-repeat;
+                          background-size: contain;
+                          width: 100%;
+                          height: 100%;
+                           transition: all 0.5s ease-in-out;
+                          animation:iconchange 7s;
+                          -moz-animation:iconchange 7s infinite; /* Firefox */
+                          -webkit-animation:iconchange 7s infinite; /* Safari and Chrome */
+                        }
+
+
+                        @-moz-keyframes iconchange /* Firefox */
+                        {
+                        0%   {background-image: url("vr.svg");}
+                        20%  {background-image: url("travel.svg");}
+                        40%  {  background-image: url("digitaldraw.svg");}
+                        60%  {  background-image: url("gamer.svg");}
+                        80%  {background-image: url("book.svg");}
+                        100%   {background-image: url("vr.svg");}
+
+                        0%   {background-image: url("vr.svg");}
+                        20%  {background-image: url("travel.svg");}
+                        40%  {  background-image: url("digitaldraw.svg");}
+                        60%  {  background-image: url("gamer.svg");}
+                        80%  {background-image: url("book.svg");}
+                        100%   {background-image: url("vr.svg");}
+
+                        }
+                        @-webkit-keyframes iconchange /* Firefox */
+                        {
+                        0%   {background-image: url("vr.svg");}
+                        20%  {background-image: url("travel.svg");}
+                        40%  {  background-image: url("digitaldraw.svg");}
+                        60%  {  background-image: url("gamer.svg");}
+                        80%  {background-image: url("book.svg");}
+                        100%   {background-image: url("vr.svg");}
+
+                        0%   {background-image: url("vr.svg");}
+                        20%  {background-image: url("travel.svg");}
+                        40%  {  background-image: url("digitaldraw.svg");}
+                        60%  {  background-image: url("gamer.svg");}
+                        80%  {background-image: url("book.svg");}
+                        100%   {background-image: url("vr.svg");}
+
+                        }
+
+
+              .projectview {
+                background-color:#FCFCFC;
+                box-shadow:  0px 3px 6px rgba(0, 0, 0, 0.16);
+                height: auto;
+                transform: scale(1);
+                transition: all 0.15s ease-in-out;
+
+                padding: 0%;
+                width: 90%;
+                margin:5%;
+
+
+
+              }
+
+
+                                  .projectview:hover {
+                                    transform: scale(1.05);
+                                       transition: all 0.5s ease-in-out;
+                                    box-shadow:  5px 4px 15px rgba(54, 236, 206, 0.64);
+                                    cursor:pointer;
+                                  }
+
+
+
+
+                      .projectviewtext {
+
+                          padding:5%;
+                          padding-top:0%;
+                          }
+
+
+                                  .projectview h2 {
+                                    color: #0C327F;
+                                    margin-top: 40px;
+                                  }
+
+                                  .projectview strong {
+                                    color:#40C6B2;
+                                    font-weight:700;
+                                  }
+
+
+
+
+                                  .projectviewtext h2, .projectviewtext  p {
+
+                                    max-width:500px;
+
+                                  }
+
+                                  .projectviewtext li {
+                                    float:left;
+                                    margin-top:10px;
+                                    height:30px;
+                                  }
+
+                                  .projectviewtext span {
+                                    color:white;
+
+                                    padding:5px;
+                                    padding-right:10px;
+                                    padding-left: 10px;
+                                   margin-right:10px;
+
+                                    background-color:#B2B2B2;
+                                    border-radius:20px;
+                                    font-family:museo-sans-rounded, sans-serif;
+                                    font-size:27;
+
+
+                                  }
+
+
+
+
+                        .ecobin {
+                              background-color:#D4FBE9;
+                              background-image: url("ecobin.png");
+                              background-size: contain;
+                              background-repeat: no-repeat;
+                              padding:25%;
+                              padding-bottom:20%;
+                              z-index:-1;
+
+
+                            }
+
+
+                            .inspogen {
+                                  background-color:#CCEFF0;
+                                  background-image: url("inspogen.png");
+                                  background-size: contain;
+                                  background-repeat: no-repeat;
+                                  padding:25%;
+                                  padding-bottom:20%;
+                                  z-index:-1;
+
+
+                                }
+
+                                .jimsworld {
+                                      background-color:#EDF8FA;
+                                      background-image: url("jimsworld.png");
+                                      background-size: contain;
+                                      background-repeat: no-repeat;
+                                      padding:25%;
+                                      padding-bottom:20%;
+                                      z-index:-1;
+
+
+                                    }
+
+                                .pixverse {
+                                  background-color:#EDF8FA;
+                                  background-image: url("pixverse.png");
+                                  background-size: cover;
+                                  background-repeat: no-repeat;
+                                  padding:35%;
+                                  padding-bottom:20%;
+                                  z-index:-1;
+                                }
+
+                                    .vr {
+                                          background-color:#4285F4;
+                                          background-image: url("vr.png");
+                                          background-size: cover;
+                                          background-repeat: no-repeat;
+                                          padding:25%;
+                                          padding-bottom:20%;
+                                          z-index:-1;
+
+
+                                        }
+                                  .filler {
+                                    height:40px;
+                                  }
+
+
+
+                  .question {
+                    background-color:#40C6B2;
+
+                    padding-top:10%;
+                    padding-bottom:10%;
+                    padding-left: 20%;
+                    padding-right:20%;
+                    width: 50%;
+                    margin:5%;
+                    height: inherit;
+
+                    box-shadow:  0px 3px 6px rgba(0, 0, 0, 0.16);
+                    border-radius: 5px;
+                  }
+
+                          .question h2 {
+                            color:white;
+                            line-height:1.4em;
+                          }
+
+
+                .tools {
+                  display:grid;
+                  grid-template-columns: 48% 4% 48%;
+                  padding-left:20%;
+                  padding-right:10%;
+                  width: 60%;
+                }
+                          .toolsrow1 {
+                            grid-column: 1;
+                          }
+
+                          .toolsrow2 {
+                            grid-column: 3;
+                          }
+
+                          .tools li, .fact li{
+                            color:#0C327F;
+                            font-size:16px;
+                            font-family:museo-sans-rounded, sans-serif;
+                            font-weight: 700;
+                            line-height:1.4em;
+                          }
+
+
+
+
+                  .imagentext {
+                    display:grid;
+                    grid-template-columns: 30% 5% 65%;
+                    padding:0;
+                    width:90%;
+                  }
+
+                          .leftimage {
+                            grid-column: 1;
+                            background-color:red;
+                            background-image:url("potwitch.png");
+                            background-repeat: no-repeat;
+                            background-size:cover;
+                            height: 100%;
+                            width: 110%;
+
+
+                          }
+
+                          #targetaud .textleft {
+                            margin-bottom: 5%;
+                          }
+
+                          .jiminspo {
+                            grid-column: 1;
+                            background-color:red;
+                            background-image:url("jiminspo.png");
+                            background-repeat: no-repeat;
+                            background-size:cover;
+                            height: 100%;
+                            width: 110%;
+
+                          }
+
+                          .vrmocks {
+                            grid-column: 1;
+                            background-color:#DAF8FE;
+                            background-image:url("mockup.png");
+                            background-repeat: no-repeat;
+                            background-size:contain;
+                            height: 100%;
+                            width: 110%;
+
+                          }
+
+
+
+
+                          .textleft {
+                            padding:5%;
+                            margin-bottom:15%;
+                            grid-column:3;
+                          }
+
+                     li {
+
+                            color:#0C327F;
+                            font-size:16px;
+                            font-family:museo-sans-rounded, sans-serif;
+                          font-weight: 400;
+                            line-height:1.4em;
+                          }
+
+                  #projectchallanges {
+                    margin-top:30%;
+                  }
+
+                  #research .textleft {
+                    margin-bottom:0%;
+                  }
+
+                #persona {
+                  margin-top:30%!important;
+                }
+
+                  .fact {
+                    padding-left:10%;
+                    padding-right:10%;
+                    width:70%;
+                  }
+
+
+                  .persona {
+                    background-size:contain;
+                    background-image:url("ecopersona.png");
+                    background-repeat:no-repeat;
+
+
+
+                    padding:25%;
+                    padding-bottom:10%;
+                    z-index:-1;
+                  }
+
+
+                  .inspogener {
+                        background-color:#FCFCFC;
+                        background-image: url("inspogener.png");
+                        background-size: contain;
+                        background-repeat: no-repeat;
+                        padding:30%;
+                        padding-bottom:25%;
+                        z-index:-1;
+
+
+                      }
+
+
+                  .jimmock {
+                    background-color:#FCFCFC;
+                    background-image: url("jimmock.svg");
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    padding:25%;
+                    padding-bottom:20%;
+                    z-index:-1;
+                  }
+
+                  .pixconcept {
+                    background-color:#FCFCFC;
+                    background-image: url("pixconcept.png");
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    padding:35%;
+                    padding-bottom:20%;
+                    z-index:-1;
+                  }
+
+                  #timeline .projectview {
+                    padding:0%;
+                    width:90%;
+                  }
+
+                  #timeline .projectviewtext {
+                    padding-left:20%;
+                  }
+                  .vrtimeline{
+                    background-color:#FCFCFC;
+                    background-image: url("vrtimeline.jpg");
+                    background-size: contain;
+                    background-repeat: no-repeat;
+
+                    padding:40%;
+                    margin:10%;
+                    padding-bottom:10%;
+                    z-index:-1;
+                  }
+
+                  #first .projectviewtext {
+                    padding-left:25%;
+                    padding-right:25%;
+                  }
+
+                  .jimuser {
+                    background-color:#FCFCFC;
+                    background-image: url("jimsuser.png");
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    padding:50%;
+                    padding-bottom:25%;
+                    z-index:-1;
+                  }
+
+
+                  .vridea {
+                    background-color:#FCFCFC;
+                    background-image: url("vrideas.png");
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    padding:50%;
+                    padding-bottom:10%;
+                    z-index:-1;
+                  }
+
+
+
+                  .jimmodel1 {
+                    background-color:#FCFCFC;
+                    background-image: url("jimmodel.png");
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    padding:55%;
+                    padding-bottom:0%;
+                    z-index:-1;
+                  }
+
+
+                      .insptest {
+                            background-color:#FCFCFC;
+                            background-image: url("insporesearch.png");
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            padding:30%;
+                            padding-bottom:15%;
+                            z-index:-1;
+
+
+                          }
+
+
+                          .inspostyle {
+
+                                background-image: url("inspostyle.png");
+                                background-size: contain;
+                                background-repeat: no-repeat;
+                                padding:55%;
+                                padding-bottom:10%;
+                                z-index:-1;
+
+                              }
+
+
+
+                  .solution {
+                      display:grid;
+                      grid-template-columns:  40% 10% 40%;
+                      padding:0;
+                      width:90%;
+                      margin-top:40%;
+                      height:700px;
+                      background-color:white;
+                      box-shadow:  0px 3px 6px rgba(0, 0, 0, 0.0);
+                  }
+
+                                    .solution .textleft{
+                                      margin-top:30%;
+                                    }
+
+                                  #myVideo {
+                                    padding:20%;
+
+                                    width: 100%;
+                                    height: 100%;
+                                    z-index:2;
+                                    grid-column: 1;
+
+                                  }
+
+                  #features .projectview {
+                    padding:5%;
+                    background-color:white;
+                    box-shadow:  0px 3px 6px rgba(0, 0, 0, 0.0);
+                  }
+
+                  .ecobinf1 {
+                    background-size:contain;
+                    background-image:url("ecobinf1.png");
+                    background-repeat:no-repeat;
+
+
+
+                    padding:55%;
+                    padding-bottom:10%;
+                    z-index:-1;
+                  }
+
+                  .ecobinf2 {
+                    background-size:contain;
+                    background-image:url("ecobinf2.png");
+                    background-repeat:no-repeat;
+
+
+
+                    padding:55%;
+                    padding-bottom:10%;
+                    z-index:-1;
+                  }
+
+
+                  .inspof1 {
+                    background-size:contain;
+                    background-image:url("inspof1.png");
+                    background-repeat:no-repeat;
+
+
+                    padding:45%;
+                    padding-bottom:10%;
+                    z-index:-1;
+                  }
+
+                  .inspof2 {
+                    background-size:contain;
+                    background-image:url("inspof2.png");
+                    background-repeat:no-repeat;
+
+
+                    padding:45%;
+                    padding-bottom:10%;
+                    z-index:-1;
+                  }
+
+                  .inspof3 {
+                    background-size:contain;
+                    background-image:url("inspof3.png");
+                    background-repeat:no-repeat;
+
+
+                    padding:49%;
+                    padding-bottom:10%;
+                    z-index:-1;
+                  }
+
+
+                                    .jimf1 {
+                                      background-size:contain;
+                                      background-image:url("jimsworldf1.png");
+                                      background-repeat:no-repeat;
+
+
+                                      padding:45%;
+                                      padding-bottom:10%;
+                                      z-index:-1;
+                                    }
+
+                                    .jimf2 {
+                                      background-size:contain;
+                                      background-image:url("jimf2.png");
+                                      background-repeat:no-repeat;
+
+
+                                      padding:45%;
+                                      padding-bottom:10%;
+                                      z-index:-1;
+                                    }
+
+
+                                    .pixplat {
+                                      background-size:contain;
+                                      background-image:url("pixplat.png");
+                                      background-repeat:no-repeat;
+
+
+                                      padding:45%;
+                                      padding-bottom:10%;
+                                      z-index:-1;
+                                    }
+
+                                    .pixflow {
+                                      background-size:contain;
+                                      background-image:url("pixflow.png");
+                                      background-repeat:no-repeat;
+
+
+                                      padding:45%;
+                                      padding-bottom:10%;
+                                      z-index:-1;
+                                    }
+
+                                    .pixmood {
+                                      background-size:contain;
+                                      background-image:url("pixmood.png");
+                                      background-repeat:no-repeat;
+
+
+                                      padding:45%;
+                                      padding-bottom:10%;
+                                      z-index:-1;
+                                    }
+
+                                    .pixrisk {
+                                      background-size:contain;
+                                      background-image:url("pixrisk.png");
+                                      background-repeat:no-repeat;
+
+
+                                      padding:45%;
+                                      padding-bottom:10%;
+                                      z-index:-1;
+                                    }
+
+                                    .pixpre{
+                                      background-size:contain;
+                                      background-image:url("pixpre.png");
+                                      background-repeat:no-repeat;
+
+
+                                      padding:45%;
+                                      padding-bottom:10%;
+                                      z-index:-1;
+                                    }
+
+                                    .pixstyle{
+                                      background-size:contain;
+                                      background-image:url("pixstyle.png");
+                                      background-repeat:no-repeat;
+
+
+                                      padding:45%;
+                                      padding-bottom:10%;
+                                      z-index:-1;
+                                    }
+
+                                    .pixtarget{
+                                      background-size:contain;
+                                      background-image:url("pixtarget.png");
+                                      background-repeat:no-repeat;
+
+
+                                      padding:45%;
+                                      padding-bottom:10%;
+                                      z-index:-1;
+                                    }
+
+                                    .pixnarr{
+                                      background-size:contain;
+                                      background-image:url("pixtnarr.png");
+                                      background-repeat:no-repeat;
+
+
+                                      padding:45%;
+                                      padding-bottom:10%;
+                                      z-index:-1;
+                                    }
+
+                                    .pixchar{
+                                      background-size:contain;
+                                      background-image:url("pixchar.png");
+                                      background-repeat:no-repeat;
+
+
+                                      padding:45%;
+                                      padding-bottom:10%;
+                                      z-index:-1;
+                                    }
+
+
+
+                                    .pixwitchmood{
+                                      background-size:contain;
+                                      background-image:url("pixwitchmood.png");
+                                      background-repeat:no-repeat;
+
+
+                                      padding:45%;
+                                      padding-bottom:10%;
+                                      z-index:-1;
+                                    }
+
+                                    .pixlibmood{
+                                      background-size:contain;
+                                      background-image:url("pixlibmood.png");
+                                      background-repeat:no-repeat;
+
+
+                                      padding:45%;
+                                      padding-bottom:10%;
+                                      z-index:-1;
+                                    }
+
+                                    .pixwitch{
+                                      background-size:contain;
+                                      background-image:url("pixverse.png");
+                                      background-repeat:no-repeat;
+
+
+                                      padding:45%;
+                                      padding-bottom:10%;
+                                      z-index:-1;
+                                    }
+
+                                    .pixlib{
+                                      background-size:contain;
+                                      background-image:url("pixlib.png");
+                                      background-repeat:no-repeat;
+
+
+                                      padding:45%;
+                                      padding-bottom:10%;
+                                      z-index:-1;
+                                    }
+
+                                    .pixwiz{
+                                      background-size:contain;
+                                      background-image:url("pixwiz.png");
+                                      background-repeat:no-repeat;
+
+
+                                      padding:45%;
+                                      padding-bottom:10%;
+                                      z-index:-1;
+                                    }
+
+                                    .pixstick{
+                                      background-size:contain;
+                                      background-image:url("pixstick.png");
+                                      background-repeat:no-repeat;
+
+
+                                      padding:45%;
+                                      padding-bottom:10%;
+                                      z-index:-1;
+                                    }
+
+                                    .pixsocial {
+                                      background-size:contain;
+                                      background-image:url("pixsocial.jpg");
+                                      background-repeat:no-repeat;
+
+
+                                      padding:45%;
+                                      padding-bottom:10%;
+                                      z-index:-1;
+                                    }
+
+                                    .pixdev{
+                                      background-size:contain;
+                                      background-image:url("pixdev.png");
+                                      background-repeat:no-repeat;
+
+
+                                      padding:45%;
+                                      padding-bottom:10%;
+                                      z-index:-1;
+                                    }
+
+                        #outcome a {
+                          float:left;
+                          padding: 10px;
+                        }
+
+
+
+
+
+
+
+
+
+
+                  #design .textleft{
+                    padding-bottom:0%;
+                    margin-bottom:5%;
+                  }
+                  .leftcolors {
+                    grid-row: 1;
+                    padding:10%;
+
+                  }
+
+
+                        .circle {
+                          margin:50px;
+                          background-color:white;
+                          width: 60px;
+                          height: 60px;
+                          border-radius:100%;
+                        }
+
+
+                        .ecobinwin {
+                          background-size:contain;
+                          background-image:url("ecobinwin.png");
+                          background-repeat:no-repeat;
+
+
+
+                          padding:25%;
+                          padding-bottom:10%;
+                          z-index:-1;
+                        }
+
+                  .infotopninfo .filler {
+                    height:0px;
+                  }
+
+                  .infotopninfo .projectviewtext {
+                    padding-left:10%;
+                    padding-right:10%;
+                  }
+
+                    .infotopninfo .projectviewtext li {
+                      float:none;
+
+
+                      line-height:1.4em;
+                  }
