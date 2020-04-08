@@ -72,7 +72,7 @@ function whynot() {
 
 function openbox() {
         document.getElementById("speech").innerText = "Did you not heed my warning? This box must not be opened at all costs. Do not open the box";
-        document.getElementById("option2").outerHTML = '<div class="button" id="option2" onclick="hidebox(); angrymeow();">Try to open box</div>';
+        document.getElementById("option2").outerHTML = '<div class="button" id="option2" onclick="hidebox(); angrymeow()"><Try to open box</div>';
         document.getElementById("option3").outerHTML = '<div class="button" id="option3" onclick="hidebox(); catmeow();">Okay</div>';
         //vissible & hidden
         document.getElementById("option1").style.display ="none";
@@ -190,7 +190,7 @@ function lookbed(){
 
 function found(){
 document.getElementById("gamecontainer").style.backgroundImage = "url('shelf.png')";
-document.getElementById("option1").outerHTML = '<div class="button" id="option1" onclick="giveup();">Try to Open</div>';
+document.getElementById("option1").outerHTML = '<div class="button" id="option1" onclick="();"><a href="https://www.instagram.com/p/B91wRMIBXDk/" target="_blank" style="text-decoration: none; color:white;">Try to Open</a></div>';
 document.getElementById("option1").style.display ="block";
 document.getElementById("box").style.display ="block";
 

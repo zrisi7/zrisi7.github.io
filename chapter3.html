@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 3</title>
+    <link rel="stylesheet" href="https://use.typekit.net/hse1lum.css">
+     <script src="chapter3.js"></script>
+
+
+      <link rel="stylesheet" href="style3.css">
+
+</head>
+
+<style>
+
+
+</style>
+<body>
+
+    <div class="bodycontainer">
+
+        <div class="gamecontainer2" id="gamecontainer">
+              <div class="middle">
+
+
+
+                  <div class="blocktop"></div>
+                  <div class="box" id="box" style="display:none"></div>
+                  <div class="small" id="small" style="display:none"></div>
+
+                  <p id="introtext" style="color:#D0B5FC; background-color:rgba(26, 26, 26, 0.90); padding:50px; width: 150%;margin-left:-50%; display:none;">Once upon a wicked time, an old wizard created a witch’s familiar
+                    (a magical black cat) out of the darkness built with curiosity and
+                     mischief. The familiar wakes, sitting on a box. As the familiar
+                      opens its eyes, it sees the old wizard for the first time
+                  </p>
+
+
+                  <div class="textnchoice">
+                          <div class="speechbubble" id="speechbubble">
+                                <p id ="speech">  What are you doing! Look what you did to my flowers! Give me the key! </p>
+                          </div>
+
+                          <div class="button" id="option1" onclick="run(); catmeow(); audio();">Look Around</div>
+
+                          <div class="button" id="option2" onclick="lose(); audio();" style="display:block;">Who cares about your flowers</div>
+                              <div class="button" id="option3" onclick="herself(); audio();" style="display:none;"></div>
+
+                          <p id="hint" style="display:none; color:white;">See the box? Click it!</p>
+
+                  <div class="hiddenbox" id="hiddenbox" style="display:none" onclick="foundtruth(); collected();"></div>
+                  <div class="hiddenmed" id="hiddenmed" style="display:none" onclick="foundmed(); collected();"></div>
+
+                  </div>
+              </div>
+
+            <!-- For looking for box -->
+
+
+
+        </div>
+
+        <audio id="myAudio">
+          <source src="witch.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+
+        <audio id="glass">
+          <source src="glass.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+
+        <audio id="catmeow">
+          <source src="catmeow.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+
+        <audio id="beggingmeow">
+          <source src="beggingmeow.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+
+        <audio id="angrymeow">
+          <source src="angrymeow.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+
+        <audio id="collected">
+          <source src="collected.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </div>
+
+        <audio id="spill">
+          <source src="spill.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </div>
+
+        <audio id="drown">
+          <source src="drown.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </div>
+
+
+    </div>
+
+
+</body>
+
+</html>

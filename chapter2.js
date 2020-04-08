@@ -57,6 +57,7 @@ function page1() {
 
 
       //visible & hidden
+        document.getElementById("box").style.display ="none";
       document.getElementById("introtext").style.display ="none";
       document.getElementById("catbox").style.display ="none";
       document.getElementById("option2").style.display ="block";
@@ -236,7 +237,7 @@ function lookwindow() {
 
   document.getElementById("speechbubble").style.display ="none";
     document.getElementById("gamecontainer").style.backgroundImage = "url('window.png')";
-  document.getElementById("option1").outerHTML = '<div class="button" id="option1" onclick="enterwindow(); glass();">Yes</div>';
+  document.getElementById("option1").outerHTML = '<div class="button" id="option1" onclick="findkey(); glass();">Yes</div>';
   document.getElementById("option2").outerHTML = '<div class="button" id="option2" onclick="leave();">No</div>';
 
 
@@ -255,27 +256,27 @@ function lookwindow() {
 
 }
 
-
-function enterwindow() {
-
-
-    document.getElementById("gamecontainer").style.backgroundImage = "url('enter.png')";
-  document.getElementById("option1").outerHTML = '<div class="button" id="option1" onclick="findkey();">Find the Key on website</div>';
-  document.getElementById("option2").outerHTML = '<div class="button" id="option2" onclick="leave();"> Find the Key at Sheridan Campus</div>';
-document.getElementById("hint").innerText = " Note : Physical award is more valuable! ";
-
-
-  //visible & hidden
-      document.getElementById("hint").style.display ="block";
-    document.getElementById("introtext").style.display ="none";
-    document.getElementById("option1").style.display ="block";
-      document.getElementById("speechbubble").style.display ="none";
-      document.getElementById("option2").style.display ="block";
-            document.getElementById("option3").style.display ="none";
-
-
-
-}
+//
+// function enterwindow() {
+//
+//
+//     document.getElementById("gamecontainer").style.backgroundImage = "url('enter.png')";
+//   document.getElementById("option1").outerHTML = '<div class="button" id="option1" onclick="findkey();">Find the Key on website</div>';
+//   document.getElementById("option2").outerHTML = '<div class="button" id="option2" onclick="leave();"> Find the Key at Sheridan Campus</div>';
+// document.getElementById("hint").innerText = " Note : Physical award is more valuable! ";
+//
+//
+//   //visible & hidden
+//       document.getElementById("hint").style.display ="block";
+//     document.getElementById("introtext").style.display ="none";
+//     document.getElementById("option1").style.display ="block";
+//       document.getElementById("speechbubble").style.display ="none";
+//       document.getElementById("option2").style.display ="block";
+//             document.getElementById("option3").style.display ="none";
+//
+//
+//
+// }
 
 function findkey() {
 
@@ -350,31 +351,32 @@ function desk() {
 
 }
 
-function foundkey() {
-
-    document.getElementById("option1").outerHTML = '<div class="button" id="option1" onclick="catmeow();">Download Award</div>';
-      document.getElementById("option2").outerHTML = '<div class="button" id="option2" onclick="bedtime6(); catmeow();">Next</div>';
-
-
-  document.getElementById("speechbubble").style.display ="none";
-      document.getElementById("box").style.display ="block";
-      document.getElementById("option2").style.display ="block";
-            document.getElementById("option3").style.display ="none";
-}
-
-
-
 
 function bedtime6(){
-  document.getElementById("introtext").innerText = "Oh No...Looks like the witch woke up. Send this to our Instagram account - Key Code, Numbers of Players, Digital or physical play?";
-  document.getElementById("option1").outerHTML = '<div class="button" id="option1" onclick="page1();">Okay</div>';
+  document.getElementById("introtext").innerText = "Oh No...Looks like the witch woke up. Send this phrase through Instagram account (Private message) to get the next chapter - Everything done in this world is done by hope";
+  document.getElementById("option1").outerHTML = '<div class="button" id="option1" onclick="();"><a href="https://drive.google.com/open?id=1yBlZzHIpKdGOvhviv7dbJXzvUTzkuz6j" target="_blank" style="text-decoration: none; color:white;">Download Award</a></div>';
+  document.getElementById("option2").outerHTML = '<div class="button" id="option2" onclick="ar();">See key in Augmented Reality</div>';
+  document.getElementById("option3").outerHTML = '<div class="button" id="option3" onclick="();"><a href="https://www.instagram.com/pixverse/" target="_blank" style="text-decoration: none; color:white;">Go to Instagram</a></div>';
 
   //visible & hidden
     document.getElementById("hint").style.display ="none";
-  document.getElementById("box").style.display ="none";
-  document.getElementById("introtext").style.display ="block";
+    document.getElementById("introtext").style.display ="block";
+  document.getElementById("box").style.display ="block";
   document.getElementById("speechbubble").style.display ="none";
     document.getElementById("option1").style.display ="block";
-      document.getElementById("option2").style.display ="none";
-            document.getElementById("option3").style.display ="none";
+      document.getElementById("option2").style.display ="block";
+            document.getElementById("option3").style.display ="block";
+}
+
+function ar() {
+
+  document.getElementById("introtext").innerText = "Download this image on your phone https://pixverse.club/armarker.png. And open this page on your computer with a camera https://pixverse.club/key. Show the downloaded image to your computer's camera. Send the number from the AR key if you forgot the quote.";
+
+
+    document.getElementById("option1").style.display ="block";
+    document.getElementById("option1").outerHTML = '<div class="button" id="option1" onclick="();"><a href="https://www.instagram.com/pixverse/" target="_blank" style="text-decoration: none; color:white;">Go to Instagram</a></div>';
+
+
+    document.getElementById("option2").style.display ="none";
+          document.getElementById("option3").style.display ="none";
 }

@@ -185,7 +185,7 @@ grid-template-columns: 35% 30% 35%;
 
 .box {
   background-size:contain;
-  height: 200px;
+  height: 100px;
   background-image:url("keypass.svg");
   background-repeat:no-repeat;
   width: auto;
@@ -292,18 +292,6 @@ grid-template-columns: 35% 30% 35%;
     }
 
 
-    .hiddenbox {
-      background-size:contain;
-      background-image:url("hiddenbox.png");
-      background-repeat:no-repeat;
-      width: 80px;
-      height: 50px;
-      position: absolute;
-      bottom: 100px;
-      right: 40px;
-        transition: all 0.25s ease-in-out;
-
-    }
 
 
     .textnchoice {

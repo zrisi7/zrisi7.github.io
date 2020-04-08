@@ -186,7 +186,7 @@ grid-template-columns: 35% 30% 35%;
 .box {
   background-size:contain;
   height: 200px;
-  background-image:url("keypass.svg");
+  background-image:url("truthfin.svg");
   background-repeat:no-repeat;
   width: auto;
   margin-top: 30%;
@@ -207,22 +207,43 @@ grid-template-columns: 35% 30% 35%;
 .hiddenbox {
 
   background-size:contain;
-  background-image:url("hiddenkey.png");
+  background-image:url("truth.svg");
   background-repeat:no-repeat;
   width: 80px;
   height: 50px;
   position: relative;
-  margin-top: 400px;
-  margin-left: 200px;
+  margin-top: 0px;
+  margin-left: 250px;
 
 
 
 }
 
 .hiddenbox:hover {
-  background-image:url("key.png");
+  background-image:url("truthfin.svg");
 
 }
+
+.hiddenmed {
+
+  background-size:contain;
+  background-image:url("medicine.svg");
+  background-repeat:no-repeat;
+  width: 80px;
+  height: 50px;
+  position: relative;
+  margin-top: 400px;
+  margin-left: 250px;
+
+
+
+}
+
+.hiddenmed:hover {
+  background-image:url("medicinefin.svg");
+
+}
+
 
 
 
