@@ -183,15 +183,7 @@ grid-template-columns: 35% 30% 35%;
 
 
 
-.box {
-  background-size:contain;
-  height: 200px;
-  background-image:url("box.svg");
-  background-repeat:no-repeat;
-  width: auto;
-  margin-top: 30%;
 
-}
 
 .potion {
   background-size:contain;

@@ -60,7 +60,7 @@ function page1() {
 
 
       //visible & hidden
-
+document.getElementById("video").style.display ="none";
       document.getElementById("introtext").style.display ="none";
       document.getElementById("catbox").style.display ="none";
         document.getElementById("option1").style.display ="block";
@@ -79,6 +79,7 @@ function ohno(){
   document.getElementById("option1").outerHTML = '<div class="button" id="option1" onclick="();"><a href="https://drive.google.com/open?id=1mTt1x_28SFBZ-bzBnA2zfK09f9t9DwdP" target="_blank" style="text-decoration: none; color:white;">Collect Awards</a></div>';
 document.getElementById("option2").outerHTML = '<div class="button" id="option2" onclick="whatudone(); catmeow();">Wait! What happens Next?</div>';
   //visible & hidden
+
   document.getElementById("speechbubble").style.display ="none";
   document.getElementById("introtext").style.display ="block";
     document.getElementById("option1").style.display ="block";
@@ -93,6 +94,7 @@ document.getElementById("speechbubble").innerText ="What have you've done!";
 document.getElementById("option2").outerHTML = '<div class="button" id="option2" onclick="destroyflower();">Destroy Flower</div>';
 document.getElementById("option3").outerHTML = '<div class="button" id="option3" onclick="gotowizard();">Go to wizard</div>';
   //visible & hidden
+  document.getElementById("video").style.display ="none";
   document.getElementById("box").style.display ="none";
   document.getElementById("speechbubble").style.display ="block";
   document.getElementById("introtext").style.display ="none";
@@ -109,6 +111,7 @@ document.getElementById("speechbubble").innerText ="STOP! YOU DUMB CAT! I AM GOI
 document.getElementById("option2").outerHTML = '<div class="button" id="option2" onclick="destroyflower();">Destroy Flower</div>';
 document.getElementById("option3").outerHTML = '<div class="button" id="option3" onclick="gotowizard();">Go to Wizard</div>';
   //visible & hidden
+  document.getElementById("video").style.display ="none";
   document.getElementById("box").style.display ="none";
   document.getElementById("speechbubble").style.display ="block";
   document.getElementById("introtext").style.display ="block";
@@ -124,6 +127,7 @@ function destroyflower(){
   document.getElementById("option1").outerHTML = '<div class="button" id="option1" onclick="goodjob();">Go to Wizard</div>';
 
   //visible & hidden
+  document.getElementById("video").style.display ="none";
   document.getElementById("box").style.display ="none";
   document.getElementById("speechbubble").style.display ="none";
   document.getElementById("introtext").style.display ="block";
@@ -140,6 +144,7 @@ function openbook(){
 document.getElementById("option2").outerHTML = '<div class="button" id="option2" onclick="gotowizard();">Leave it before she gets mad</div>';
 document.getElementById("option3").outerHTML = '<div class="button" id="option3" onclick="goodjob();">Go to Wizard</div>';
   //visible & hidden
+  document.getElementById("video").style.display ="none";
   document.getElementById("box").style.display ="none";
   document.getElementById("speechbubble").style.display ="none";
   document.getElementById("introtext").style.display ="block";
@@ -155,6 +160,7 @@ function readit(){
   document.getElementById("option1").outerHTML = '<div class="button" id="option1" onclick="destroyflower();">Destroy Flower</div>';
 document.getElementById("option2").outerHTML = '<div class="button" id="option2" onclick="gotowizard();">Go to Wizard</div>';
   //visible & hidden
+  document.getElementById("video").style.display ="none";
   document.getElementById("box").style.display ="none";
   document.getElementById("speechbubble").style.display ="none";
   document.getElementById("introtext").style.display ="block";
@@ -169,6 +175,7 @@ function goodjob() {
 document.getElementById("speechbubble").innerText ="Good job! You did exactly what I needed you to do.";
 document.getElementById("option1").outerHTML = '<div class="button" id="option1" onclick="();">Collect Loss</div>';
 //visible & hidden
+document.getElementById("video").style.display ="none";
 document.getElementById("box").style.display ="none";
 document.getElementById("speechbubble").style.display ="block";
 document.getElementById("introtext").style.display ="none";
@@ -190,6 +197,7 @@ function gotowizard() {
 document.getElementById("introtext").innerText = "Wizard is sleeping. Let's destroy his place.";
 document.getElementById("option1").outerHTML = '<div class="button" id="option1" onclick="crazycat();">Yes, destroy';
 //visible & hidden
+document.getElementById("video").style.display ="none";
 document.getElementById("speechbubble").style.display ="none";
 document.getElementById("introtext").style.display ="block";
 
@@ -202,6 +210,7 @@ function crazycat() {
   document.getElementById("speechbubble").innerText ="You crazy cat! How dare you!? Stop! *uses a spell on cat to turn it back to normal*";
   document.getElementById("option1").outerHTML = '<div class="button" id="option1" onclick="whoflower();">Who is the flower?</div>';
   //visible & hidden
+  document.getElementById("video").style.display ="none";
   document.getElementById("box").style.display ="none";
   document.getElementById("speechbubble").style.display ="block";
   document.getElementById("introtext").style.display ="none";
@@ -223,7 +232,7 @@ function whoflower() {
   document.getElementById("box").style.display ="none";
   document.getElementById("speechbubble").style.display ="block";
   document.getElementById("introtext").style.display ="none";
-
+document.getElementById("video").style.display ="none";
   document.getElementById("option1").style.display ="block";
   document.getElementById("option2").style.display ="none";
         document.getElementById("option3").style.display ="none";
@@ -238,6 +247,7 @@ function turnedhim() {
   document.getElementById("option1").outerHTML = '<div class="button" id="option1" onclick="bubble(); drown();">You did it!</div>';
     document.getElementById("option2").outerHTML = '<div class="button" id="option2" onclick="youdidnt();">You didnt do it?</div>';
   //visible & hidden
+  document.getElementById("video").style.display ="none";
   document.getElementById("box").style.display ="none";
   document.getElementById("speechbubble").style.display ="block";
   document.getElementById("introtext").style.display ="none";
@@ -257,6 +267,7 @@ function youdidnt(){
     document.getElementById("option3").outerHTML = '<div class="button" id="option3" onclick="lookbox();">Quietly look for cure for flower</div>';
 
   //visible & hidden
+  document.getElementById("video").style.display ="none";
   document.getElementById("box").style.display ="none";
   document.getElementById("speechbubble").style.display ="block";
   document.getElementById("introtext").style.display ="none";
@@ -274,6 +285,7 @@ function bubble(){
   document.getElementById("option1").outerHTML = '<div class="button" id="option1" onclick="();">Collect loss</div>';
 
   //visible & hidden
+  document.getElementById("video").style.display ="none";
   document.getElementById("box").style.display ="none";
   document.getElementById("speechbubble").style.display ="none";
   document.getElementById("introtext").style.display ="none";
@@ -290,6 +302,7 @@ function bubble2(){
   document.getElementById("option1").outerHTML = '<div class="button" id="option1" onclick="();">Collect loss</div>';
 
   //visible & hidden
+  document.getElementById("video").style.display ="none";
   document.getElementById("box").style.display ="none";
   document.getElementById("speechbubble").style.display ="none";
   document.getElementById("introtext").style.display ="none";
@@ -307,7 +320,7 @@ function lookbox(){
   document.getElementById("option1").outerHTML = '<div class="button" id="option1" onclick="lookdesk();">Look at Desk</div>';
   document.getElementById("option2").outerHTML = '<div class="button" id="option2" onclick="lookbed();">Look at Bedroom</div>';
   document.getElementById("option3").outerHTML = '<div class="button" id="option3" onclick="lookshelf();">Look at Shelf</div>';
-
+document.getElementById("video").style.display ="none";
   document.getElementById("speechbubble").style.display ="none";
   document.getElementById("option1").style.display ="block";
     document.getElementById("option2").style.display ="block";
@@ -325,7 +338,7 @@ function lookdesk(){
 
 
   document.getElementById("option1").outerHTML = '<div class="button" id="option1" onclick="lookbox();">Back</div>';
-
+document.getElementById("video").style.display ="none";
   document.getElementById("hint").style.display ="block";
   document.getElementById("option2").style.display ="none";
   document.getElementById("option3").style.display ="none";
@@ -340,7 +353,7 @@ function lookshelf(){
 
 
   document.getElementById("option1").outerHTML = '<div class="button" id="option1" onclick="lookbox();">Back</div>';
-
+document.getElementById("video").style.display ="none";
   document.getElementById("hint").style.display ="block";
   document.getElementById("option2").style.display ="none";
   document.getElementById("option3").style.display ="none";
@@ -355,7 +368,7 @@ function lookbed(){
 
 
   document.getElementById("option1").outerHTML = '<div class="button" id="option1" onclick="lookbox();">Back</div>';
-
+document.getElementById("video").style.display ="none";
   document.getElementById("hint").style.display ="block";
   document.getElementById("option2").style.display ="none";
   document.getElementById("option3").style.display ="none";
@@ -368,7 +381,7 @@ function found(){
 document.getElementById("gamecontainer").style.backgroundImage = "url('bed.png')";
 document.getElementById("option1").outerHTML = '<div class="button" id="option1" onclick="gotowitch();">Go to Witch with the cure</div>';
 document.getElementById("option2").outerHTML = '<div class="button" id="option2" onclick="wizflower();">Pour the wizards own potion on him</div>';
-
+document.getElementById("video").style.display ="none";
 document.getElementById("hiddenbox").style.display ="none";
 document.getElementById("option1").style.display ="block";
 document.getElementById("option2").style.display ="block";
@@ -390,7 +403,7 @@ function wizflower(){
   document.getElementById("option1").style.display ="block";
     document.getElementById("option2").style.display ="none";
       document.getElementById("option3").style.display ="none";
-
+document.getElementById("video").style.display ="none";
   document.getElementById("introtext").style.display ="block";
   document.getElementById("hint").style.display ="none";
   document.getElementById("box").style.display ="none";
@@ -407,6 +420,7 @@ function sure() {
     document.getElementById("option2").outerHTML = '<div class="button" id="option2" onclick="bubble2();">Im sorry</div>';
 
   //visible & hidden
+  document.getElementById("video").style.display ="none";
   document.getElementById("box").style.display ="none";
   document.getElementById("speechbubble").style.display ="block";
   document.getElementById("introtext").style.display ="none";
@@ -431,7 +445,7 @@ function witchflower() {
   document.getElementById("option1").style.display ="block";
     document.getElementById("option2").style.display ="block";
       document.getElementById("option3").style.display ="none";
-
+document.getElementById("video").style.display ="none";
   document.getElementById("speechbubble").style.display ="none";
   document.getElementById("hint").style.display ="none";
   document.getElementById("box").style.display ="none";
@@ -448,6 +462,7 @@ function goodjobtwo() {
     document.getElementById("option2").outerHTML = '<div class="button" id="option2" onclick="bubble2();">You are evil!</div>';
     document.getElementById("option3").outerHTML = '<div class="button" id="option3" onclick="();"><a href="witch.html" target="_blank" style="text-decoration: none; color:white;">I hate them too</div>';
   //visible & hidden
+  document.getElementById("video").style.display ="none";
   document.getElementById("box").style.display ="none";
   document.getElementById("speechbubble").style.display ="block";
   document.getElementById("introtext").style.display ="none";
@@ -471,7 +486,7 @@ function wizardflower2() {
   document.getElementById("option1").style.display ="block";
     document.getElementById("option2").style.display ="block";
       document.getElementById("option3").style.display ="none";
-
+document.getElementById("video").style.display ="none";
         document.getElementById("speechbubble").style.display ="block";
   document.getElementById("speechbubble").style.display ="none";
   document.getElementById("hint").style.display ="none";
@@ -490,6 +505,7 @@ function gotowitch() {
     document.getElementById("option2").outerHTML = '<div class="button" id="option2" onclick="witchflower();">Pour potion from wizard on witch</div>';
 
   //visible & hidden
+  document.getElementById("video").style.display ="none";
   document.getElementById("box").style.display ="none";
   document.getElementById("speechbubble").style.display ="block";
   document.getElementById("introtext").style.display ="none";
@@ -507,6 +523,7 @@ function happy() {
   document.getElementById("option1").outerHTML = '<div class="button" id="option1" onclick="();"><a href="flowerhuman.html" target="_blank" style="text-decoration: none; color:white;">Your welcome</div>';
 
   //visible & hidden
+  document.getElementById("video").style.display ="none";
   document.getElementById("box").style.display ="none";
   document.getElementById("speechbubble").style.display ="block";
   document.getElementById("introtext").style.display ="none";
